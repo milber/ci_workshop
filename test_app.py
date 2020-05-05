@@ -8,7 +8,7 @@ app = Flask(__name__)
 @app.route('/quemasve')
 def national_statistic():
 
-    return "nada ve ..."
+    return "aquifff"
 
 
 if __name__ == '__main__':
