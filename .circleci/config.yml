@@ -13,7 +13,6 @@ jobs:
         name: show_directory
         command: ls
 
-
 workflows:
   build_and_test:
     jobs:
@@ -24,4 +23,3 @@ workflows:
           filters:
             branches:
               only: master
-  
