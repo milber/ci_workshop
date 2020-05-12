@@ -3,6 +3,17 @@ version: 2.1
 orbs:
   heroku: circleci/heroku@1.0.1
 
+jobs:
+  build:
+    docker:
+      - image: circleci/python:3.6.9
+    steps:
+      - checkout
+      - run:
+        name: show_directory
+        command: ls
+
+
 workflows:
   heroku_deploy:
     jobs:
