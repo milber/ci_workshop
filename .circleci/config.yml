@@ -10,8 +10,8 @@ jobs:
     steps:
       - checkout
       - run:
-        name: show_directory
-        command: ls
+          name: show_directory
+          command: ls
 
 workflows:
   build_and_test:
